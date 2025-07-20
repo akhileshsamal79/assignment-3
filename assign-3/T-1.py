@@ -10,3 +10,14 @@ def factorial(n):
 n=int(input("Enter a number to calculate factorial: "))
 c=factorial(n)
 print('Factorial of ',n,'is',c)
+
+
+
+'''
+# easy way around
+def factorial(n):
+    if n<2:
+        return 1
+    else:
+        return n * factorial(n-1)
+'''
